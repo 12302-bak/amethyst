@@ -1,8 +1,8 @@
 
-
+{{/*  
 <hr/>
 
-{{/*  {{if $.Site.Params.enableFooter}}  */}}
+{{if $.Site.Params.enableFooter}}
 <div class="page-end" id="footer">
     <div class="backlinks-container">
         {{partial "quartz/backlinks.html" .}}
@@ -11,6 +11,7 @@
         {{partial "quartz/graph.html" .}}
     </div>
 </div>
-{{/*  {{end}}  */}}
-
+{{end}}  */}}
+ 
+<hr class="hr-division-line" style="overflow: visible; padding:0; border:none; border-top: medium double cadetblue; color: cadetblue; text-align:center; height: 4px; margin-top:120px; background-color: cadetblue;"/>
 {{partial "quartz/contact" .}}
