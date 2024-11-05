@@ -1,4 +1,4 @@
-$header-height: 80px;
+$header-height: 50px;
 
 header {
     position: fixed;
@@ -12,14 +12,16 @@ header {
 
 .book-menu,
 .book-menu-content,
-.book-toc-content,
 .book-page {
     margin-top: $header-height;
+}
+.book-toc-content {
+    margin-top: 80px;
 }
 
 .book-header {
     display: flex;
-    padding: 30px;
+    padding: 25px;
 }
 
 #page-title a {
