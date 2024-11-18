@@ -458,9 +458,9 @@ header, .menu-search {
         background: var(--light);
         outline: none;
 
-        &:hover, &:focus {
-          background: rgba(180, 180, 180, 0.15);
-        }
+        // &:hover, &:focus {
+        //   background: rgba(180, 180, 180, 0.15);
+        // }
 
         &:first-of-type {
           border-top-left-radius: 5px;
